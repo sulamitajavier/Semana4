@@ -1,0 +1,576 @@
+@font-face { font-family: Futura; src: url('Futura(light).ttf'); } 
+ 
+/* imagen de fondo*/
+body{
+    background-image: url(http://maritzalisa.com/wp-content/uploads/2017/02/DIY-Tropical-Paper-Leaf-Props-Maritza-Lisa-1.jpg);
+
+}
+
+
+/* estilos de texto */
+
+h1 {
+    text-align:center;
+    color:black;
+    font-family: 'Futura', sans-serif;
+    font-size: 20px;
+    background-color: #EFBFD9;
+    padding: 2%;
+
+}
+
+h2 {
+    text-align:left;
+    color:black;
+    font-family: 'Futura', sans-serif;
+    margin: 2%;
+
+}
+
+h4{
+ text-align: center;
+}
+
+
+p{
+    margin: 20px;
+}
+
+h3 {
+  color:black;
+    font-family: 'Futura', sans-serif;
+    font-size: 1em;
+
+}
+
+h5{
+  text-align: center;
+}
+
+button{
+  background-color:#EFBFD9;
+  font-family: 'Futura', sans-serif;
+  border: #EFBFD9 ;
+  padding: 2.5%;
+  font-size: 1em;
+}
+
+/* contenedor general*/
+
+.wrap {
+    width: 68.8%;
+    height:50%;
+    border: none;
+    margin:15%;
+    margin-top: 4%;
+    background-color:white;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .wrap{
+    max-width: 70%;
+  
+  }
+}
+
+a {
+  color: #EFBFD9 ;
+}
+
+
+/* contenedor con el código de oferta*/
+
+
+.code {
+    width: 100%;
+    height:2em;
+    border: 2px #9EC1E2;
+    padding-top: 15px;
+    background-color:#BBFCFD;
+    font-family: 'Futura', sans-serif;
+   }
+
+
+@media only screen and (max-width: 900px) {
+  .code h4{
+    font-size: 0.6em;
+  
+  }
+}
+
+
+
+/* contenedor del logo e imagen del logo*/
+
+
+.logo {
+  
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+
+.logo img{
+    display: block;
+    margin: left;
+}
+
+@media only screen and (max-width: 900px) {
+  .logo{
+    width: 30%;
+  
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .logo img{
+    max-width: 321%;
+
+  
+  }
+}
+
+
+/* menu */
+
+.menu {
+    width: 100%;
+    height:20%;
+    background-color: white;
+    margin-top: 3%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+   margin-left:8.5%;
+   display: inline-block;
+
+}
+
+li a, .shop .cuenta {
+    display: inline-block;
+    color:black;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-family: 'Futura', sans-serif;
+}
+
+.menu li a:hover, .shop:hover  .shopc  {
+    background-color: #EFBFD9;
+}
+
+li.shop  {
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 900px) {
+  li{
+   
+   width: 50%;
+
+  
+  }
+}
+
+
+
+
+
+/* imagenes */
+
+.uno {
+    border: 1em solid #FAB5A9;
+    width: 25%;
+    height: 17%;
+ margin-left: 20%;
+ margin-top: 4%;
+}
+
+
+.dos {
+    border: 1em solid #F3CB89;
+    width: 25%;
+    height: 18.5em;
+    margin-left: 55%;
+    margin-top: -35%;
+}
+ 
+.tres {
+    border: 1em solid #F3ED89;
+    width: 25%;
+    height: 18.5em;
+ margin-left: 20%;
+ margin-top: 8%;
+}
+
+
+.cuatro {
+    border: 1em solid #BBFCFD;
+    width: 25%;
+    height: 18.5em;
+    margin-left: 55%;
+    margin-top: -35%;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .uno{
+   
+   width: 50%;
+   margin-top: 20%;
+
+
+  
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .dos{
+   
+   width: 50%;
+   height: 11em;
+   margin-top: 20%;
+   margin-left: 20.5%;
+  
+
+  
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .tres{
+   
+   width: 50%;
+   margin-top: 20%;
+    height: 11.5em;
+
+  
+
+  
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .cuatro{
+   
+   width: 50%;
+   margin-top: 20%;
+    height: 11.5em;
+    margin-left: 20%;
+  
+
+  
+  }
+}
+
+
+/* imagen de IG */
+
+
+.ig {
+    border: 6px #FAB5A9;
+    width: 25%;
+    height: 5%;
+    margin: 5%;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 900px) {
+  .ig {
+   
+   width: 50%;
+   font-size: 2em;
+   margin-top: 25%;
+   
+  
+
+  
+  }
+}
+
+
+.i1 {
+    border: 2px dashed#FAB5A9;
+    width: 20%;
+    height: 10%;
+    margin-left: 18%;
+}
+
+.i2 {
+    border: 2px dashed #FAB5A9;
+    width: 20%;
+    height: 10%;
+    margin-left: 40%;
+    margin-top: -25.6%;
+}
+
+.i3 {
+    border: 2px dashed #FAB5A9;
+    width: 20%;
+    height:14.8em;
+    margin-left: 62%;
+    margin-top: -25.7%;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .i1 {
+   
+   width: 50%;
+   margin-top: 10%;
+   margin-left: 25%;
+   
+   
+  
+
+  
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .i2 {
+   
+   width: 50%;
+   margin-top: 10%;
+   margin-left: 25%;
+   
+   
+  
+
+  
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .i3 {
+   
+   width: 50%;
+   margin-top: 10%;
+   margin-left: 25%;
+   height: 11em;
+   
+   
+  
+
+  
+  }
+}
+
+
+
+
+
+/* footer */
+
+
+.ultimo {
+    width: 99.6%;
+    height: 420px;
+    border:2px  solid #EFBFD9;
+    background-color: #EFBFD9;
+    margin-top: 5%;
+    font-family: 'Futura', sans-serif;
+  }
+
+@media only screen and (max-width: 900px) {
+  .ultimo {
+   
+   width: 98.5%;
+   
+   
+  
+
+  
+  }
+}
+
+/*para html1 : boton y contenedor para registrarse*/
+
+
+button.btn-lg{
+ background-color: #EFBFD9;
+ border: 1px solid #EFBFD9;
+ font-family: 'Futura', sans-serif;
+}
+
+button.btn-lg:hover {
+ background-color: #BBFCFD;
+ border: 1px solid #BBFCFD;
+ font-family: 'Futura', sans-serif;
+ color:black;
+ 
+}
+
+button.btn-lg:visited{
+ background-color: #BBFCFD;
+ border: 1px solid #BBFCFD;
+ font-family: 'Futura', sans-serif;
+ color:black;
+ 
+}
+
+button.btn-lg:after{
+ background-color: #BBFCFD;
+ border: 1px solid #BBFCFD;
+ font-family: 'Futura', sans-serif;
+ color:black;
+ 
+}
+
+.container {
+  font-family: 'Futura', sans-serif;
+  
+}
+
+#signin {
+
+ font-family: 'Futura', sans-serif;
+
+}
+
+
+.bs-modal-sm a{
+ color: black;
+}
+
+.bs-modal-sm a:hover{
+ color: #EFBFD9;
+
+
+}
+
+
+
+
+ font-family: 'Futura', sans-serif;
+
+}
+
+li #myTab .navtabs  {
+  color:green;
+}
+
+
+.btn{
+
+ font-family: 'Futura', sans-serif;
+
+}
+
+
+/* html 2 compras */
+
+.uno1 {
+ 
+  width:12em;
+  height: 16em;
+  margin-left: 30%;
+  margin-top: 6%;
+  text-align: center;
+  line-height: 120%;
+}
+
+.dos2 {
+  
+  width:12em;
+  height: 16em;
+  margin-left: 55%;
+  margin-top: -27%;
+  text-align: center;
+  line-height: 120%;
+}
+
+.tres3{
+ 
+  width:12em;
+  height: 16em;
+  margin-left: 30%;
+  margin-top: 5%;
+  text-align: center;
+  line-height: 120%;
+}
+
+.cuatro4 {
+ 
+  width:12em;
+  height: 16em;
+  margin-left: 55%;
+  margin-top: -27.7%;
+  text-align: center;
+  line-height: 120%;
+}
+
+
+.ui img{
+  width:10em;
+
+}
+
+.di img{
+  width:10em;
+
+}
+
+.ti img{
+  width:10em;
+
+}
+
+.ci img{
+  width:10em;
+
+}
+
+
+/* pagination */
+
+.center {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.pagination {
+    display: inline-block;
+
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #EFBFD9;
+    color: white;
+    border: 1px solid #EFBFD9;
+}
+
+.pagination a:hover{
+    background-color: #BBFCFD;
+    color: black;
+    border: 1px solid #BBFCFD;
+}
+
+
+button:hover{
+background-color: #BBFCFD;
+}
+
+

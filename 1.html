@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> 
+	Confetti </title>
+<link href="css/reset.css" rel="Stylesheet" type="text/css">
+<link href="css/stylesheet.css" rel="Stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,800" rel="stylesheet">
+<link rel="shortcut icon" href="img/cora.ico" type="image/ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head> 
+ 
+
+<!-- contenedor general -->
+<div class="wrap">
+
+<!-- rayita azul de arriba con el código/oferta-->
+	
+
+
+  <div class="logo">
+<!-- logo confetti.-->
+  	<a href="index.html">
+    <img src="img/c.png"style="width:340px;height:120px;"/> 
+    </a>
+  	</div>
+
+
+ <!--boostrap de https://bootsnipp.com/snippets/featured/sign-in-sign-up-dual-modal-->
+
+<div class="container" style="margin-left: 42%"> 
+    
+    <br>
+   
+    <h2><b>Sorry</b></h2>
+    <h3 style="margin-left: -14%;">You need to sign in or register for this service.</h3>
+    <br>
+  <button class="btn btn-primary btn-lg" href="#signup" data-toggle="modal" data-target=".bs-modal-sm" style="margin-left: -1%;">Sign In/Register</button>
+ 
+  <br>
+    
+ </div>
+  
+
+<!-- Modal -->
+<div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+        <br>
+        <div class="bs-example bs-example-tabs" style= "width: 100%;">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#signin" data-toggle="tab">Sign In</a></li>
+              <li class=""><a href="#signup" data-toggle="tab" >Register</a></li>
+              
+            </ul>
+        </div>
+      <div class="modal-body">
+        <div id="myTabContent" class="tab-content">
+        
+        <div class="tab-pane fade active in" id="signin">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign In Form -->
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Alias:</label>
+              <div class="controls">
+                <input required="" id="userid" name="userid" type="text" class="form-control" placeholder="Your Alias" class="input-medium" required="">
+              </div>
+            </div>
+
+            <!-- Password input-->
+            <div class="control-group">
+              <label class="control-label" for="passwordinput">Password:</label>
+              <div class="controls">
+                <input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
+              </div>
+            </div>
+
+            <!-- Multiple Checkboxes (inline) -->
+            <div class="control-group">
+              <label class="control-label" for="rememberme"></label>
+              <div class="controls" style="margin-left: 7%">
+                <label class="checkbox inline" for="rememberme-0">
+                  <input type="checkbox" name="rememberme" id="rememberme-0" value="Remember me">
+                  Remember me
+                </label>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="signin"></label>
+              <div class="controls">
+                <button id="signin" name="signin" class="btn btn-success" style="background-color:#EFBFD9; border-color: #EFBFD9;">Sign In</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+        <div class="tab-pane fade" id="signup">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign Up Form -->
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="Email">Email:</label>
+              <div class="controls">
+                <input id="Email" name="Email" class="form-control" type="text" placeholder="name@example.com" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Alias:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="text" placeholder="New Alias" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Password input-->
+            <div class="control-group">
+              <label class="control-label" for="password">Password:</label>
+              <div class="controls">
+                <input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="reenterpassword">Re-Enter Password:</label>
+              <div class="controls">
+                <input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Multiple Radios (inline) -->
+            
+            
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="confirmsignup"></label>
+              <div class="controls">
+                <button id="confirmsignup" name="confirmsignup" class="btn btn-success" style="background-color:#EFBFD9; border-color: #EFBFD9;">Sign Up</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+      </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+      <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+
+<div class="ultimo" style="padding: 2%;">
+<p> Contact Us! </p>
+
+<p>
+	<i class="fa fa-envelope-o" aria-hidden="true"></i>
+confetti@gmail.com<br><br>
+    <i class="fa fa-phone" aria-hidden="true"></i>
+809-868-1784 </p>
+
+<br><br><br><br>
+<p> Follow Us! </p>
+<p> @confetti<br><br>
+	<i class="fa fa-instagram" aria-hidden="true"></i>
+	<i class="fa fa-facebook" aria-hidden="true"></i>
+	<i class="fa fa-twitter" aria-hidden="true"></i>
+</p>
+
+<br><br><br>
+<p> 2017, Confetti. </p>
+
+	</div>
+
+<script src="js/bootstrap.js"></script>
+</div>
+
+
+
+</body>
+
+</html>
+	
